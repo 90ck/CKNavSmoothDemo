@@ -10,6 +10,6 @@
 
 
 
-![demo](/Users/caike/workSpace/iOS/CKNavSmoothDemo/demo.gif)
+![demo](demo.gif)
 
 
