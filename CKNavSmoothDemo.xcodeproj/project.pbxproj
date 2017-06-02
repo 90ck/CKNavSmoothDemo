@@ -1,0 +1,343 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		676A362A1EDFEF43000CEDBA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 676A36291EDFEF43000CEDBA /* main.m */; };
+		676A362D1EDFEF43000CEDBA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 676A362C1EDFEF43000CEDBA /* AppDelegate.m */; };
+		676A36331EDFEF43000CEDBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 676A36311EDFEF43000CEDBA /* Main.storyboard */; };
+		676A36351EDFEF43000CEDBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 676A36341EDFEF43000CEDBA /* Assets.xcassets */; };
+		676A36381EDFEF43000CEDBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 676A36361EDFEF43000CEDBA /* LaunchScreen.storyboard */; };
+		676A36421EDFEFC1000CEDBA /* UINavigationController+Smooth.m in Sources */ = {isa = PBXBuildFile; fileRef = 676A36411EDFEFC1000CEDBA /* UINavigationController+Smooth.m */; };
+		676A36451EDFF000000CEDBA /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 676A36441EDFF000000CEDBA /* MainViewController.m */; };
+		676A36481EDFF012000CEDBA /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 676A36471EDFF012000CEDBA /* ProfileViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		676A36251EDFEF43000CEDBA /* CKNavSmoothDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CKNavSmoothDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		676A36291EDFEF43000CEDBA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		676A362B1EDFEF43000CEDBA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		676A362C1EDFEF43000CEDBA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		676A36321EDFEF43000CEDBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		676A36341EDFEF43000CEDBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		676A36371EDFEF43000CEDBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		676A36391EDFEF43000CEDBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		676A36401EDFEFC1000CEDBA /* UINavigationController+Smooth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+Smooth.h"; sourceTree = "<group>"; };
+		676A36411EDFEFC1000CEDBA /* UINavigationController+Smooth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+Smooth.m"; sourceTree = "<group>"; };
+		676A36431EDFF000000CEDBA /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		676A36441EDFF000000CEDBA /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		676A36461EDFF012000CEDBA /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		676A36471EDFF012000CEDBA /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		676A36221EDFEF43000CEDBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		676A361C1EDFEF43000CEDBA = {
+			isa = PBXGroup;
+			children = (
+				676A36271EDFEF43000CEDBA /* CKNavSmoothDemo */,
+				676A36261EDFEF43000CEDBA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		676A36261EDFEF43000CEDBA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				676A36251EDFEF43000CEDBA /* CKNavSmoothDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		676A36271EDFEF43000CEDBA /* CKNavSmoothDemo */ = {
+			isa = PBXGroup;
+			children = (
+				676A362B1EDFEF43000CEDBA /* AppDelegate.h */,
+				676A362C1EDFEF43000CEDBA /* AppDelegate.m */,
+				676A363F1EDFEFB8000CEDBA /* CKNavSmooth */,
+				676A36431EDFF000000CEDBA /* MainViewController.h */,
+				676A36441EDFF000000CEDBA /* MainViewController.m */,
+				676A36461EDFF012000CEDBA /* ProfileViewController.h */,
+				676A36471EDFF012000CEDBA /* ProfileViewController.m */,
+				676A36311EDFEF43000CEDBA /* Main.storyboard */,
+				676A36341EDFEF43000CEDBA /* Assets.xcassets */,
+				676A36361EDFEF43000CEDBA /* LaunchScreen.storyboard */,
+				676A36391EDFEF43000CEDBA /* Info.plist */,
+				676A36281EDFEF43000CEDBA /* Supporting Files */,
+			);
+			path = CKNavSmoothDemo;
+			sourceTree = "<group>";
+		};
+		676A36281EDFEF43000CEDBA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				676A36291EDFEF43000CEDBA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		676A363F1EDFEFB8000CEDBA /* CKNavSmooth */ = {
+			isa = PBXGroup;
+			children = (
+				676A36401EDFEFC1000CEDBA /* UINavigationController+Smooth.h */,
+				676A36411EDFEFC1000CEDBA /* UINavigationController+Smooth.m */,
+			);
+			path = CKNavSmooth;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		676A36241EDFEF43000CEDBA /* CKNavSmoothDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 676A363C1EDFEF43000CEDBA /* Build configuration list for PBXNativeTarget "CKNavSmoothDemo" */;
+			buildPhases = (
+				676A36211EDFEF43000CEDBA /* Sources */,
+				676A36221EDFEF43000CEDBA /* Frameworks */,
+				676A36231EDFEF43000CEDBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CKNavSmoothDemo;
+			productName = CKNavSmoothDemo;
+			productReference = 676A36251EDFEF43000CEDBA /* CKNavSmoothDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		676A361D1EDFEF43000CEDBA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = caike;
+				TargetAttributes = {
+					676A36241EDFEF43000CEDBA = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = U5S4SZQP26;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 676A36201EDFEF43000CEDBA /* Build configuration list for PBXProject "CKNavSmoothDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 676A361C1EDFEF43000CEDBA;
+			productRefGroup = 676A36261EDFEF43000CEDBA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				676A36241EDFEF43000CEDBA /* CKNavSmoothDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		676A36231EDFEF43000CEDBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				676A36381EDFEF43000CEDBA /* LaunchScreen.storyboard in Resources */,
+				676A36351EDFEF43000CEDBA /* Assets.xcassets in Resources */,
+				676A36331EDFEF43000CEDBA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		676A36211EDFEF43000CEDBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				676A36421EDFEFC1000CEDBA /* UINavigationController+Smooth.m in Sources */,
+				676A362D1EDFEF43000CEDBA /* AppDelegate.m in Sources */,
+				676A36451EDFF000000CEDBA /* MainViewController.m in Sources */,
+				676A36481EDFF012000CEDBA /* ProfileViewController.m in Sources */,
+				676A362A1EDFEF43000CEDBA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		676A36311EDFEF43000CEDBA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				676A36321EDFEF43000CEDBA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		676A36361EDFEF43000CEDBA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				676A36371EDFEF43000CEDBA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		676A363A1EDFEF43000CEDBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		676A363B1EDFEF43000CEDBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		676A363D1EDFEF43000CEDBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = U5S4SZQP26;
+				INFOPLIST_FILE = CKNavSmoothDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.caidake.CKNavSmoothDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		676A363E1EDFEF43000CEDBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = U5S4SZQP26;
+				INFOPLIST_FILE = CKNavSmoothDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.caidake.CKNavSmoothDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		676A36201EDFEF43000CEDBA /* Build configuration list for PBXProject "CKNavSmoothDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				676A363A1EDFEF43000CEDBA /* Debug */,
+				676A363B1EDFEF43000CEDBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		676A363C1EDFEF43000CEDBA /* Build configuration list for PBXNativeTarget "CKNavSmoothDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				676A363D1EDFEF43000CEDBA /* Debug */,
+				676A363E1EDFEF43000CEDBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 676A361D1EDFEF43000CEDBA /* Project object */;
+}
